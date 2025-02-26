@@ -199,5 +199,258 @@ public class Temperatura {
     }
 }
 
+Exercício 7
+
+import java.util.Scanner;
+
+public class MaiorQueDez {
+    public static void main(String[] args) {
+        // Criando o scanner para ler a entrada
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo o valor
+        System.out.print("Digite um valor: ");
+        int valor = scanner.nextInt();
+        
+        // Verificando se o valor é maior que 10
+        if (valor > 10) {
+            System.out.println("EH MAIOR QUE 10!");
+        } else {
+            System.out.println("NAO EH MAIOR QUE 10!");
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercicio 8
+
+import java.util.Scanner;
+
+public class Positivo {
+    public static void main(String[] args) {
+        // Criando o scanner para ler a entrada
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo o valor
+        System.out.print("Digite um valor: ");
+        int valor = scanner.nextInt();
+        
+        // Verificando se o valor é positivo
+        if (valor >= 0) {
+            System.out.println("EH POSITIVO!");
+        } else {
+            System.out.println("EH NEGATIVO!");
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercicio 9
+
+import java.util.Scanner;
+
+public class CustoMacas {
+    public static void main(String[] args) {
+        // Criando o scanner para ler a entrada
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo o número de maçãs compradas
+        System.out.print("Digite o numero de macas compradas: ");
+        
+        // Garantir que a entrada seja um número inteiro
+        if (scanner.hasNextInt()) {
+            int quantidade = scanner.nextInt();
+            
+            // Verificar se o número de maçãs é válido (positivo)
+            if (quantidade >= 0) {
+                // Definindo o preço por maçã
+                double precoPorMaca;
+                if (quantidade >= 12) {
+                    precoPorMaca = 1.00; // Preço para 12 ou mais maçãs
+                } else {
+                    precoPorMaca = 1.30; // Preço para menos de 12 maçãs
+                }
+                
+                // Calculando o custo total
+                double custoTotal = quantidade * precoPorMaca;
+                
+                // Exibindo o custo total
+                System.out.printf("O custo total da compra é: R$ %.2f\n", custoTotal);
+            } else {
+                System.out.println("Número inválido de maçãs. O valor deve ser positivo.");
+            }
+        } else {
+            System.out.println("Por favor, digite um número inteiro válido.");
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercício 10
+
+import java.util.Scanner;
+
+public class AprovacaoAluno {
+    public static void main(String[] args) {
+        // Criando o scanner para ler as entradas
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo as notas das duas avaliações
+        System.out.print("Digite a nota da 1a. avaliacao: ");
+        double nota1 = scanner.nextDouble();
+        
+        System.out.print("Digite a nota da 2a. avaliacao: ");
+        double nota2 = scanner.nextDouble();
+        
+        // Calculando a média aritmética simples
+        double media = (nota1 + nota2) / 2;
+        
+        // Verificando se o aluno foi aprovado ou reprovado
+        if (media >= 6) {
+            System.out.println("Aluno aprovado!");
+        } else {
+            System.out.println("Aluno reprovado!");
+        }
+        
+        // Exibindo a média calculada
+        System.out.printf("A media do aluno eh: %.2f\n", media);
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercicio 11
+
+import java.util.Scanner;
+
+public class Votacao {
+    public static void main(String[] args) {
+        // Criando o scanner para ler as entradas
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo o ano atual e o ano de nascimento da pessoa
+        System.out.print("Digite o ano atual: ");
+        int anoAtual = scanner.nextInt();
+        
+        System.out.print("Digite o ano de nascimento: ");
+        int anoNascimento = scanner.nextInt();
+        
+        // Calculando a idade da pessoa
+        int idade = anoAtual - anoNascimento;
+        
+        // Verificando se a pessoa pode votar
+        if (idade >= 18) {
+            System.out.println("Você pode votar este ano!");
+        } else {
+            System.out.println("Você não pode votar este ano.");
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+
+Exercicio 12
+
+import java.util.Scanner;
+
+public class MaiorValor {
+    public static void main(String[] args) {
+        // Criando o scanner para ler as entradas
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo os dois valores
+        System.out.print("Digite o primeiro valor: ");
+        int valor1 = scanner.nextInt();
+        
+        System.out.print("Digite o segundo valor: ");
+        int valor2 = scanner.nextInt();
+        
+        // Comparando os valores e exibindo o maior
+        if (valor1 > valor2) {
+            System.out.println("O maior valor eh: " + valor1);
+        } else {
+            System.out.println("O maior valor eh: " + valor2);
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercicio 13
+
+import java.util.Scanner;
+
+public class OrdemCrescente {
+    public static void main(String[] args) {
+        // Criando o scanner para ler as entradas
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo os dois valores
+        System.out.print("Digite o primeiro valor: ");
+        int valor1 = scanner.nextInt();
+        
+        System.out.print("Digite o segundo valor: ");
+        int valor2 = scanner.nextInt();
+        
+        // Imprimindo os valores em ordem crescente
+        if (valor1 < valor2) {
+            System.out.println("Valores em ordem crescente: " + valor1 + ", " + valor2);
+        } else {
+            System.out.println("Valores em ordem crescente: " + valor2 + ", " + valor1);
+        }
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+Exercicio 14
+
+import java.util.Scanner;
+
+public class DuracaoJogoXadrez {
+    public static void main(String[] args) {
+        // Criando o scanner para ler as entradas
+        Scanner scanner = new Scanner(System.in);
+        
+        // Lendo as horas de início e de fim do jogo
+        System.out.print("Digite a hora de inicio do jogo (em horas): ");
+        int horaInicio = scanner.nextInt();
+        
+        System.out.print("Digite a hora de fim do jogo (em horas): ");
+        int horaFim = scanner.nextInt();
+        
+        // Calculando a duração do jogo
+        int duracao;
+        
+        // Se a hora de fim for maior que a hora de início
+        if (horaFim > horaInicio) {
+            duracao = horaFim - horaInicio;
+        } else {
+            // Se a hora de fim for menor ou igual à hora de início, o jogo atravessa a meia-noite
+            duracao = (24 - horaInicio) + horaFim;
+        }
+        
+        // Exibindo a duração do jogo
+        System.out.println("A duracao do jogo foi de " + duracao + " hora(s).");
+        
+        // Fechando o scanner
+        scanner.close();
+    }
+}
+
+
+Exercicio 15
+
 
 
