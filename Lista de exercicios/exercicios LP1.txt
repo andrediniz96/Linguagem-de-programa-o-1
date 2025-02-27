@@ -452,5 +452,43 @@ public class DuracaoJogoXadrez {
 
 Exercicio 15
 
+import java.util.Scanner;
+
+public class CalculoSalario {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada de dados
+        System.out.print("Digite o numero de horas trabalhadas no mes: ");
+        double horasTrabalhadas = scanner.nextDouble();
+
+        System.out.print("Digite o salario por hora: ");
+        double salarioPorHora = scanner.nextDouble();
+
+        // Definições
+        int horasSemanais = 40;
+        int semanasNoMes = 4;
+        int horasMensais = horasSemanais * semanasNoMes;
+        double salarioTotal;
+
+        if (horasTrabalhadas > horasMensais) {
+            double horasExtras = horasTrabalhadas - horasMensais;
+            double valorHoraExtra = salarioPorHora * 1.5;
+            salarioTotal = (horasMensais * salarioPorHora) + (horasExtras * valorHoraExtra);
+        } else {
+            salarioTotal = horasTrabalhadas * salarioPorHora;
+        }
+
+        // Exibir o salário total
+        System.out.printf("O salario total do funcionário eh: R$ %.2f%n", salarioTotal);
+
+        scanner.close();
+    }
+}
+
+Exercicício 16
+
+
+
 
 
