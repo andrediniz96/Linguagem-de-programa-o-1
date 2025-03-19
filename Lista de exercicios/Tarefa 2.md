@@ -3,11 +3,20 @@
 ### 1.
 ![image](https://github.com/user-attachments/assets/f9e9caf0-62b1-4131-b6cf-39ddb8c5313e)
 
-###2.
-![image](https://github.com/user-attachments/assets/06b40ffd-1181-4940-b145-675bcbe8cfe2)
+### 2.
+![image](https://github.com/user-attachments/assets/78c34faa-545d-4b3b-b3ee-007b00ef2e02)
 
-###3. 
-![image](https://github.com/user-attachments/assets/62844dbc-5bdf-4e74-bff0-d283a69a7a6c)
+
+### 3. 
+![image](https://github.com/user-attachments/assets/cab411fc-ac7d-4889-b63d-b48c2385f3df)
+
+### 4.
+![image](https://github.com/user-attachments/assets/d7e8f539-d6f0-4900-aa91-d55b9180fb6a)
+
+### 5. 
+
+
+
 
 
 
