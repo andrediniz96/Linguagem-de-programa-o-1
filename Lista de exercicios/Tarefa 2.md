@@ -20,7 +20,22 @@
 
 ![image](https://github.com/user-attachments/assets/92923174-cfee-4d0f-b12c-6ac4c45dca67)
 
-### 7.
+### 7. Celulares
+![image](https://github.com/user-attachments/assets/2b57e528-1d0c-4599-bd29-e34e5eec3141)
+
+### 8. Flores
+
+![image](https://github.com/user-attachments/assets/efff3310-2002-4b88-9278-89a71bbc3deb)
+
+### 9. países
+
+![image](https://github.com/user-attachments/assets/e0123e68-c0b6-4b95-9c40-c51bdf779b1b)
+
+### 10. Times
+
+![image](https://github.com/user-attachments/assets/4c911abd-f51f-4094-a413-a9fd04a0e231)
+
+
 
 
 
