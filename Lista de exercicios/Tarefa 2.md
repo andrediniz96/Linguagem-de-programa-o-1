@@ -1,6 +1,6 @@
 # EXERCICIO 1
 ## Coletar 10 figuras contendo dois ou mais objetos de uma mesma classe. 
-### 1.
+### 1. Video Games
 ![image](https://github.com/user-attachments/assets/f9e9caf0-62b1-4131-b6cf-39ddb8c5313e)
 
 ### 2.
@@ -19,6 +19,10 @@
 ### 6.
 
 ![image](https://github.com/user-attachments/assets/92923174-cfee-4d0f-b12c-6ac4c45dca67)
+
+### 7.
+
+
 
 
 
