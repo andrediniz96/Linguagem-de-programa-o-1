@@ -36,6 +36,15 @@
 ![image](https://github.com/user-attachments/assets/4c911abd-f51f-4094-a413-a9fd04a0e231)
 
 
+# EXERCICIO 2 
+
+## Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos. 
+
+### 1. Video Game
+
+![image](https://github.com/user-attachments/assets/d762ed4a-d211-4c93-9fee-e161196cd3c6)
+
+
 
 
 
