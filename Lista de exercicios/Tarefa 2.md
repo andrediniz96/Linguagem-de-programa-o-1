@@ -71,9 +71,71 @@
 ### 10. Times
 ![image](https://github.com/user-attachments/assets/8b917d57-17ba-4f17-84fd-283dc2aa2865)
 
-# EXERCICIO 2
+# EXERCICIO 2 (utilizar o IntelliJ IDEA 2024.3.4)
 ## Implementar, usando a Linguagem Java, as classes modeladas no item 2.
-###
+### 1.
+
+### 2. 
+
+### 3. Pessoa
+
+package org.example;
+import java.util.Scanner;
+
+public class Pessoa {
+    private String nome;
+    private int idade;
+    private String email;
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+
+    public void Andar() {
+        System.out.println(nome + " andou");
+    }
+
+
+    public void Estudar() {
+        System.out.println(nome + " Estudou");
+    }
+
+
+    public void Programar() {
+        System.out.println(nome + " Programando");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Pessoa pessoa = new Pessoa();
+
+        System.out.print("Digite o Nome: ");
+        pessoa.setNome(scanner.nextLine());
+
+        System.out.print("Digite a Idade: ");
+        pessoa.setIdade(scanner.nextInt());
+        scanner.nextLine();
+
+        System.out.print("Digite o Email : ");
+        pessoa.setEmail(scanner.nextLine());
+
+        System.out.println("\nAções da Pessoa:");
+        pessoa.Andar();
+        pessoa.Estudar();
+        pessoa.Programar();
+
+        scanner.close();
+    }
+}
 
 
 
