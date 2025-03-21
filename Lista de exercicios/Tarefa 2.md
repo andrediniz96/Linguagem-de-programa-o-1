@@ -46,9 +46,9 @@
 
 # EXERCICIO 2 (utilizar o IntelliJ IDEA 2024.3.4)
 ## Implementar, usando a Linguagem Java, as classes modeladas no item 2.
-### 1.
+### 1. Video Game
 
-### 2. 
+### 2. Instrumento
 
 ### 3. Pessoa
 
@@ -109,6 +109,14 @@ public class Pessoa {
         scanner.close();
     }
 }
+
+### 4. Animal
+### 5. Carro
+### 6. Moto
+### 7. Celular
+### 8. Flor
+### 9. Livro
+### 10.Time
 
 
 
