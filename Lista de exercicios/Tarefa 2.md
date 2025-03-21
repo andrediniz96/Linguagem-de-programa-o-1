@@ -27,9 +27,10 @@
 
 ![image](https://github.com/user-attachments/assets/efff3310-2002-4b88-9278-89a71bbc3deb)
 
-### 9. países
+### 9. Livros
 
-![image](https://github.com/user-attachments/assets/e0123e68-c0b6-4b95-9c40-c51bdf779b1b)
+![image](https://github.com/user-attachments/assets/ed773fd0-7daf-41ed-acc7-ecd555713142)
+
 
 ### 10. Times
 
