@@ -41,36 +41,8 @@
 
 ## Modelar via UML ou outra ferramenta cada classe do item 1, com três métodos e três atributos. 
 
-### 1. Video Game
-![image](https://github.com/user-attachments/assets/d762ed4a-d211-4c93-9fee-e161196cd3c6)
+![image](https://github.com/user-attachments/assets/77d4e8c2-a4c0-4f3e-a9c8-2fd1e4093726)
 
-### 2. Instrumento
-![image](https://github.com/user-attachments/assets/dcb4a02d-15b6-4b78-bde3-ef3de50b014a)
-
-### 3. Pessoas
-![image](https://github.com/user-attachments/assets/46d5f23a-053b-4407-aa6b-048c026a09bd)
-
-### 4. Animais
-![image](https://github.com/user-attachments/assets/a5058188-2aeb-4e85-83e1-5e789602b54c)
-
-### 5. Carros
-![image](https://github.com/user-attachments/assets/163ec9d1-6cf7-4d74-8950-9308c26ea0a6)
-
-### 6. Motos
-![image](https://github.com/user-attachments/assets/a8e22bdb-e21f-424c-b248-86b4c22bebc6)
-
-### 7. Celulares
-![image](https://github.com/user-attachments/assets/cd431243-0587-4c96-9935-3120ed83267d)
-
-### 8. Flores
-![image](https://github.com/user-attachments/assets/2f814d7d-d87f-4ff3-97d0-c78fc9ebccb1)
-
-
-### 9. países
-![image](https://github.com/user-attachments/assets/e845e970-2b0a-4a00-9223-6ed5723fa1ab)
-
-### 10. Times
-![image](https://github.com/user-attachments/assets/8b917d57-17ba-4f17-84fd-283dc2aa2865)
 
 # EXERCICIO 2 (utilizar o IntelliJ IDEA 2024.3.4)
 ## Implementar, usando a Linguagem Java, as classes modeladas no item 2.
