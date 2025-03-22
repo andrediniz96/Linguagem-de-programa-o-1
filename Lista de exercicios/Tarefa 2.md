@@ -50,6 +50,64 @@
 
 ### 2. Instrumento
 
+package org.example;
+import java.util.Scanner;
+
+public class Instrumento {
+    private String nome;
+    private String tipo;
+    private String fabricante;
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setEmail(String email) {
+        this.fabricante= fabricante;
+    }
+
+
+    public void Andar() {
+        System.out.println(nome + " tocar");
+    }
+
+
+    public void Estudar() {
+        System.out.println(nome + " afinar");
+    }
+
+
+    public void Programar() {
+        System.out.println(nome + " desafinar");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Instrumento instrumento = new Instrumento();
+
+        System.out.print("Digite o Nome: ");
+        instrumento.setNome(scanner.nextLine());
+
+        System.out.print("Digite o Tipo: ");
+       instrumento.setIdade(scanner.next());
+        scanner.nextLine();
+
+        System.out.print("Digite o Fabricante : ");
+        instrumento.setEmail(scanner.nextLine());
+
+        System.out.println("\nAções do Instrumento:");
+        instrumento.Andar();
+        instrumento.Estudar();
+        instrumento.Programar();
+
+        scanner.close();
+    }
+}
+
 ### 3. Pessoa
 
 package org.example;
