@@ -300,7 +300,136 @@ public class Animal {
 
 
 ### 5. Carro
+
+package org.example;
+import java.util.Scanner;
+
+public class Carro {
+    // Atributos
+    private boolean ligar;
+    private boolean acelerar;
+    private boolean frear;
+    private String modelo;
+    private int ano;
+    private String cor;
+
+    // Métodos setters
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    // Métodos de ação
+    public void Ligar() {
+        ligar = true;
+        System.out.println(modelo + " está ligado.");
+    }
+
+    public void Acelerar() {
+        acelerar = true;
+        System.out.println(modelo + " está acelerando.");
+    }
+
+    public void Frear() {
+        frear = true;
+        System.out.println(modelo + " está freando.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Carro carro = new Carro();
+
+        System.out.print("Digite o modelo do carro: ");
+        carro.setModelo(scanner.nextLine());
+
+        System.out.print("Digite o ano de fabricação do carro: ");
+        carro.setAno(scanner.nextInt());
+        scanner.nextLine();  // Limpar o buffer
+
+        System.out.print("Digite a cor do carro: ");
+        carro.setCor(scanner.nextLine());
+
+        System.out.println("\nAções do Carro:");
+        carro.Ligar();
+        carro.Acelerar();
+        carro.Frear();
+
+        scanner.close();
+    }
+}
+
 ### 6. Moto
+package org.example;
+import java.util.Scanner;
+
+public class Moto {
+    // Atributos
+    private boolean ligar;
+    private boolean acelerar;
+    private boolean frear;
+    private String modelo;
+    private int ano;
+    private String cor;
+
+    // Métodos setters
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    // Métodos de ação
+    public void Ligar() {
+        ligar = true;
+        System.out.println(modelo + " está ligado.");
+    }
+
+    public void Acelerar() {
+        acelerar = true;
+        System.out.println(modelo + " está acelerando.");
+    }
+
+    public void Frear() {
+        frear = true;
+        System.out.println(modelo + " está freando.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Moto moto = new Moto();
+
+        System.out.print("Digite o modelo da moto: ");
+        moto.setModelo(scanner.nextLine());
+
+        System.out.print("Digite o ano de fabricação da moto: ");
+        moto.setAno(scanner.nextInt());
+        scanner.nextLine();  // Limpar o buffer
+
+        System.out.print("Digite a cor da moto: ");
+        moto.setCor(scanner.nextLine());
+
+        System.out.println("\nAções da Moto:");
+        moto.Ligar();
+        moto.Acelerar();
+        moto.Frear();
+
+        scanner.close();
+    }
+}
+
 ### 7. Celular
 ### 8. Flor
 ### 9. Livro
