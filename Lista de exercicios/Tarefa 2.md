@@ -48,6 +48,71 @@
 ## Implementar, usando a Linguagem Java, as classes modeladas no item 2.
 ### 1. Video Game
 
+package org.example;
+import java.util.Scanner;
+
+public class Videogame {
+    // Atributos
+    private boolean ligar;
+    private boolean desligar;
+    private boolean jogar;
+    private String nome;
+    private int ano;
+    private String cor;
+
+    // Métodos setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    // Métodos de ação
+    public void Ligar() {
+        ligar = true;
+        System.out.println(nome + " está ligado.");
+    }
+
+    public void Desligar() {
+        desligar = true;
+        System.out.println(nome + " está desligado.");
+    }
+
+    public void Jogar() {
+        jogar = true;
+        System.out.println(nome + " está jogando.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Videogame videoGame = new Videogame();
+
+        System.out.print("Digite o nome do VideoGame: ");
+        videoGame.setNome(scanner.nextLine());
+
+        System.out.print("Digite o ano de lançamento: ");
+        videoGame.setAno(scanner.nextInt());
+        scanner.nextLine();  // Limpar o buffer
+
+        System.out.print("Digite a cor do VideoGame: ");
+        videoGame.setCor(scanner.nextLine());
+
+        System.out.println("\nAções do VideoGame:");
+        videoGame.Ligar();
+        videoGame.Jogar();
+        videoGame.Desligar();
+
+        scanner.close();
+    }
+}
+
+
 ### 2. Instrumento
 
 package org.example;
