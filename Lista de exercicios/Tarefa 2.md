@@ -234,6 +234,71 @@ public class Pessoa {
 }
 
 ### 4. Animal
+
+package org.example;
+import java.util.Scanner;
+
+public class Animal {
+    // Atributos
+    private boolean correr;
+    private boolean comer;
+    private boolean dormir;
+    private String especie;
+    private double peso;
+    private int idade;
+
+    // Métodos setters
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    // Métodos de ação
+    public void Correr() {
+        correr = true;
+        System.out.println(especie + " está correndo.");
+    }
+
+    public void Comer() {
+        comer = true;
+        System.out.println(especie + " está comendo.");
+    }
+
+    public void Dormir() {
+        dormir = true;
+        System.out.println(especie + " está dormindo.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Animal animal = new Animal();
+
+        System.out.print("Digite a espécie do animal: ");
+        animal.setEspecie(scanner.nextLine());
+
+        System.out.print("Digite o peso do animal (em kg): ");
+        animal.setPeso(scanner.nextDouble());
+
+        System.out.print("Digite a idade do animal: ");
+        animal.setIdade(scanner.nextInt());
+
+        System.out.println("\nAções do Animal:");
+        animal.Correr();
+        animal.Comer();
+        animal.Dormir();
+
+        scanner.close();
+    }
+}
+
+
 ### 5. Carro
 ### 6. Moto
 ### 7. Celular
