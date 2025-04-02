@@ -431,9 +431,261 @@ public class Moto {
 }
 
 ### 7. Celular
+
+import java.util.Scanner;
+
+public class Celular {
+    // Atributos
+    private boolean ligar;
+    private boolean desligar;
+    private boolean fotografar;
+    private String modelo;
+    private int ano;
+    private String cor;
+
+    // Métodos setters
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    // Métodos de ação
+    public void Ligar() {
+        ligar = true;
+        System.out.println(modelo + " está ligado.");
+    }
+
+    public void Desligar() {
+        desligar = true;
+        System.out.println(modelo + " está desligado.");
+    }
+
+    public void Fotografar() {
+        fotografar = true;
+        System.out.println(modelo + " está tirando uma foto.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Celular celular = new Celular();
+
+        System.out.print("Digite o modelo do celular: ");
+        celular.setModelo(scanner.nextLine());
+
+        System.out.print("Digite o ano de fabricação do celular: ");
+        celular.setAno(scanner.nextInt());
+        scanner.nextLine();  // Limpar o buffer
+
+        System.out.print("Digite a cor do celular: ");
+        celular.setCor(scanner.nextLine());
+
+        System.out.println("\nAções do Celular:");
+        celular.Ligar();
+        celular.Fotografar();
+        celular.Desligar();
+
+        scanner.close();
+    }
+}
+
 ### 8. Flor
+import java.util.Scanner;
+
+public class Flor {
+    // Atributos
+    private boolean regar;
+    private boolean florescer;
+    private boolean murchar;
+    private String nome;
+    private String cor;
+    private String aroma;
+
+    // Métodos setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public void setAroma(String aroma) {
+        this.aroma = aroma;
+    }
+
+    // Métodos de ação
+    public void Regar() {
+        regar = true;
+        System.out.println(nome + " foi regada.");
+    }
+
+    public void Florescer() {
+        florescer = true;
+        System.out.println(nome + " está florescendo.");
+    }
+
+    public void Murchar() {
+        murchar = true;
+        System.out.println(nome + " está murchando.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Flor flor = new Flor();
+
+        System.out.print("Digite o nome da flor: ");
+        flor.setNome(scanner.nextLine());
+
+        System.out.print("Digite a cor da flor: ");
+        flor.setCor(scanner.nextLine());
+
+        System.out.print("Digite o aroma da flor: ");
+        flor.setAroma(scanner.nextLine());
+
+        System.out.println("\nAções da Flor:");
+        flor.Regar();
+        flor.Florescer();
+        flor.Murchar();
+
+        scanner.close();
+    }
+}
+
 ### 9. Livro
+import java.util.Scanner;
+
+public class Livro {
+    // Atributos
+    private boolean avaliar;
+    private boolean emprestar;
+    private boolean abrirPagina;
+    private String titulo;
+    private String autor;
+    private int ano;
+
+    // Métodos setters
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+
+    // Métodos de ação
+    public void Avaliar() {
+        avaliar = true;
+        System.out.println("Você avaliou o livro: " + titulo);
+    }
+
+    public void Emprestar() {
+        emprestar = true;
+        System.out.println("Você emprestou o livro: " + titulo);
+    }
+
+    public void AbrirPagina() {
+        abrirPagina = true;
+        System.out.println("Você abriu uma página do livro: " + titulo);
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Livro livro = new Livro();
+
+        System.out.print("Digite o título do livro: ");
+        livro.setTitulo(scanner.nextLine());
+
+        System.out.print("Digite o autor do livro: ");
+        livro.setAutor(scanner.nextLine());
+
+        System.out.print("Digite o ano de publicação do livro: ");
+        livro.setAno(scanner.nextInt());
+
+        System.out.println("\nAções com o Livro:");
+        livro.Avaliar();
+        livro.Emprestar();
+        livro.AbrirPagina();
+
+        scanner.close();
+    }
+}
+
+
 ### 10.Time
+
+import java.util.Scanner;
+
+public class Time {
+    // Atributos
+    private boolean ganhar;
+    private boolean empatar;
+    private boolean perder;
+    private String nome;
+    private String pais;
+    private int titulos;
+
+    // Métodos setters
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPais(String pais) {
+        this.pais = pais;
+    }
+
+    public void setTitulos(int titulos) {
+        this.titulos = titulos;
+    }
+
+    // Métodos de ação
+    public void Ganhar() {
+        ganhar = true;
+        System.out.println(nome + " ganhou um jogo.");
+    }
+
+    public void Empatar() {
+        empatar = true;
+        System.out.println(nome + " empatou um jogo.");
+    }
+
+    public void Perder() {
+        perder = true;
+        System.out.println(nome + " perdeu um jogo.");
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Time time = new Time();
+
+        System.out.print("Digite o nome do time: ");
+        time.setNome(scanner.nextLine());
+
+        System.out.print("Digite o país do time: ");
+        time.setPais(scanner.nextLine());
+
+        System.out.print("Digite o número de títulos do time: ");
+        time.setTitulos(scanner.nextInt());
+
+        System.out.println("\nAções do Time:");
+        time.Ganhar();
+        time.Empatar();
+        time.Perder();
+
+        scanner.close();
+    }
+}
+
 
 
 
